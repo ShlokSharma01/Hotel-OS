@@ -46,7 +46,23 @@ app.use('/api/payment', paymentRoutes);
 app.use('/api/feedback', feedbackRoutes);
 app.use('/api/analytics', analyticsRoutes);
 app.use('/api/admin', adminRoutes);
-
+app.get('/', (req, res) => {
+  res.json({
+    message: 'Hotel OS Backend is running 🚀',
+    endpoints: [
+      '/api/auth',
+      '/api/rooms',
+      '/api/chat',
+      '/api/requests',
+      '/api/billing',
+      '/api/payment',
+      '/api/feedback',
+      '/api/analytics',
+      '/api/admin',
+      '/health'
+    ]
+  });
+});
 app.get('/health', (req, res) => res.json({ status: 'ok', timestamp: new Date() }));
 
 io.on('connection', (socket) => {
