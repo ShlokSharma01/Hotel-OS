@@ -14,9 +14,9 @@
     "socket.io-client": "^4.6.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build"
-  },
+  "start": "node node_modules/react-scripts/bin/react-scripts.js start",
+  "build": "node node_modules/react-scripts/bin/react-scripts.js build"
+},
   "browserslist": {
     "production": [
       ">0.2%",
