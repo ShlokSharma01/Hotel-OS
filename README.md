@@ -208,12 +208,28 @@ NODE_ENV             development or production
 
 ---
 
-Updated: April 14, 2026
+## 🌐 Live Demo
+
+| | Link |
+|--|------|
+| **Frontend** | https://hotel-os-rpvw.vercel.app |
+| **Backend API** | https://hotel-os.onrender.com |
+| **GitHub** | https://github.com/ShlokSharma01/Hotel-OS |
+
+> ⚠️ Backend is hosted on Render free tier — first request may take 30-60 seconds to wake up.
+
+### Demo Credentials
+| Role | Email | Password |
+|------|-------|----------|
+| Guest | guest@demo.com | Booking ID: BK-DEMO-001 |
+| Staff | staff@hotel.com | staff123 |
+| Admin | admin@hotel.com | admin123 |
 
 ## 👥 Team
 
 Sharda University, Department of Computer Science & Engineering  
 Shlok Sharma
+Ali Zafir
 ---
 
 *Hotel OS — Reducing check-in time by 74%, improving service response by 35%, increasing guest satisfaction to 85%.*
